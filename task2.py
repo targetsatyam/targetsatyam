@@ -1,0 +1,16 @@
+a = float(input('Enter first value: '))
+b = float(input('Enter second value: '))
+c = a+b
+d = a-b
+e = a*b
+f = a/b
+g = a%b
+h = a**b
+i = a//b
+print('Sum = ',c)
+print('Subtraction = ',d)
+print('Multiplication = ',e)
+print('Divide = ',f)
+print('Modulas = ',g)
+print('Exponantial = ',h)
+print('Floor divison = ',i)

@@ -1,0 +1,12 @@
+# f = open("data.txt", 'r')
+# data = f.read(1)
+# print(data)
+# f.close()
+f = open("data.txt",'r')
+data = f.readlines()
+for line in data:
+ print (line , end = "")
+# data1 = f.readlines()
+# print(data , end="")
+# print(data1)
+f.close()
